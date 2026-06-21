@@ -478,32 +478,31 @@
     </div>
 
     <div class="contact-card">
-      <h3>Send a Message</h3>
-      <p>Fill out the form below and we will get back to you as soon as possible.</p>
-      <div class="contact-form">
-        <label class="field-label">Your Name</label>
-        <input class="field-input" id="contactName" type="text" placeholder="Your name"/>
-        <label class="field-label">Your Email</label>
-        <input class="field-input" id="contactEmail" type="email" placeholder="your@email.com"/>
-        <label class="field-label">Message</label>
-        <textarea id="contactMessage" placeholder="Write your message here..."></textarea>
-        <button class="btn-contact" onclick="sendContactMessage()">Send Message ✉️</button>
-        <div class="auth-status" id="contactStatus" style="margin-top:8px"></div>
+      <h3>Find Us</h3>
+      <div style="display:flex;flex-direction:column;gap:16px;">
+        <a class="contact-email-link" href="mailto:socckzoo@gmail.com?subject=Becoming Her">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-info">
+            <div class="label">Email Us</div>
+            <div class="value">socckzoo@gmail.com</div>
+          </div>
+        </a>
+        <div class="contact-email-link" style="text-decoration:none;cursor:default;">
+          <div class="contact-icon">📮</div>
+          <div class="contact-info">
+            <div class="label">Mailing Address</div>
+            <div class="value">PO Box 20101<br>Kalamazoo, MI 49019</div>
+          </div>
+        </div>
+        <a class="contact-email-link" href="https://www.socckzoo.org/becomingher" target="_blank">
+          <div class="contact-icon">🌐</div>
+          <div class="contact-info">
+            <div class="label">Website</div>
+            <div class="value">www.socckzoo.org/becomingher</div>
+          </div>
+        </a>
       </div>
     </div>
-
-    <div class="crisis-box">
-      <h3>📞 Need Help Right Now? If you need to talk, the 988 Lifeline is here.</h3>
-      <p>If you are having a mental health crisis or contemplating suicide, text or call <strong>988</strong> anytime, day or night. You are not alone.</p>
-    </div>
-  </div>
-  <div style="height:80px"></div>
-  <div class="bottom-nav">
-    <button class="nav-item" onclick="showScreen('home')"><span class="nav-icon">🏠</span><span class="nav-label">HOME</span></button>
-    <button class="nav-item" onclick="showScreen('chapters')"><span class="nav-icon">📖</span><span class="nav-label">CHAPTERS</span></button>
-    <button class="nav-item active"><span class="nav-icon">💬</span><span class="nav-label">CONTACT</span></button>
-    <button class="nav-item" onclick="showScreen('settings')"><span class="nav-icon">👤</span><span class="nav-label">PROFILE</span></button>
-  </div>
 </div>
 
 <!-- SETTINGS / PROFILE -->
